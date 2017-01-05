@@ -1,0 +1,31 @@
+.music-news-item{
+	$news-item-width:200px;
+	position:relative;
+	display: inline-block;
+	width:$news-item-width;
+	padding:5px;
+	.icon{
+		text-align:center;
+		position:absolute;
+		display:inline-block;
+		top:10px;
+		left:10px;
+		color:#ffffff;
+		width:25px;
+		height:25px;
+		border-radius:50%;
+		border:1px solid #ffffff;
+	}
+	img{
+		width:$news-item-width;
+		height:$news-item-width/2;		
+	}
+	.news-name{
+		padding:8px 2px;
+		font-size:10px;
+		height:24px;
+		line-height:12px;
+		overflow:hidden;
+		margin:0;
+	}
+}

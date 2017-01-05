@@ -1,0 +1,52 @@
+.leftbar{
+	width:240px;
+	background-color: #F9F9F9;
+
+}
+.leftbar-header{
+	padding:20px 15px;
+	background: url('./leftbar_bg.jpg') top center no-repeat;
+	background-size: 100% 100%;
+	color: #ffffff;
+}
+.leftbar-header::after{
+	display: block;
+	content:"";
+	clear:both;
+}
+.leftbar-header .user{
+	float: left;
+
+}
+.leftbar-header .user img{
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+}
+
+.leftbar-header .user .username{
+	display: inline-block;
+	line-height: 40px;
+	height: 40px;
+
+}
+.leftbar-header .sign{
+	float: right;
+}
+.leftbar-bottom{	
+	background-color: #ffffff;
+	height:35px;
+	line-height: 35px;
+	font-size: 14px;
+	margin-left: -1px;
+
+}
+.leftbar-bottom a{
+
+	border-left:1px solid #f2f2f2;
+	text-align: center;
+   display: inline-block;
+   width:50%;
+   color:#000000;
+}
