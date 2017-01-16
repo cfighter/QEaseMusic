@@ -1,16 +1,13 @@
 
 .leftbar-item{
-	padding:0 15px;
+	padding:0 12px;
 	height: 40px;
-	line-height:40px;
-	font-size:14px; 
+	line-height: 40px;
 	font-family: Microsoft Yahei;
 
 }
 .leftbar-item a{
-	display: block;
-	font-size:16px; 
-	
+	display: block; 	
 }
 .leftbar-item a .icon{
 	color:#C62F2F;

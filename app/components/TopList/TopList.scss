@@ -1,0 +1,39 @@
+.toplist {
+    width: 100%;
+    padding: 5px;
+    font-size: 0;
+    margin-bottom:5px;
+    .name {
+        position: relative;
+        width: 75px;
+        height: 75px;
+      color:#ffffff;
+        float: left;
+       background: linear-gradient(-45deg,#5098E1 30%, #4985E0 60%,#52AEDB 100%);
+        .update-time {
+            position: absolute;
+            font-size: 10px;
+            right: 5px;
+            top:2px;
+        }
+        .list-name {
+            font-weight: bolder;
+            font-size: 18px;
+            padding-top:10px;
+            line-height: 65px;
+            text-align: center;
+            
+        }
+    }
+    .list {
+        padding: 10px;
+        margin: 0 0 0 80px;
+        font-size: 12px;
+        height: 75px;
+        color: #A1A1A1;
+        border-bottom: 1px solid #cccccc;
+        li {
+            line-height: 18px;
+        }
+    }
+}

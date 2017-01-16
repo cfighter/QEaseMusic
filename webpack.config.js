@@ -27,5 +27,23 @@ module.exports = {
             }
 
         ]
-    }
+    },
+    devServer: {
+        historyApiFallback: true,
+        hot: true,
+        inline: true,
+        progress: true,
+        proxy: {
+            '/api/*': {
+                target: 'http://music.163.com',
+                changeOrigin: true,
+                secure: false
+            },
+            '/eapi/*': {
+                target: 'http://music.163.com',
+                changeOrigin: true,
+                secure: false
+            },
+        }
+    },
 };

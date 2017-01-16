@@ -1,0 +1,14 @@
+@import '../commen.scss';
+.topbar {
+    width: 100%;
+    background-color: $theme-color;
+    height: 50px;
+    line-height:50px;
+    .topbar-item {
+		font-size: 20px;
+    	text-align: center;
+    	display: inline-block;
+    	color:#ffffff;
+        width:16.6%;
+    }
+}

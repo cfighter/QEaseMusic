@@ -1,0 +1,21 @@
+@import '../commen.scss';
+.tabbar{
+	background-color:#ffffff;
+	width:100%;
+	display:flex;
+	display: -webkit-flex;
+	height:30px;
+	line-height:30px;
+	font-size:15px;
+	.tab-item{
+		display:flex;
+		justify-content: center;
+		flex-wrap: nowrap;
+		flex:1;
+
+	}
+	.tab-item.active{
+		color:$theme-color;
+		border-bottom:1px solid $theme-color;
+	}
+}

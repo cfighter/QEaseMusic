@@ -1,26 +1,28 @@
 .music-item{
-	$music-item-width:100px;
-	position:relative;
-	display: inline-block;
+	$music-item-width:50%;
+	
+	display:inline-block;
 	width:$music-item-width;
-	padding:5px;
+	padding:8px 8px 0 8px;
 	.play-times{
-		position:absolute;
+		position:relative;
+		top:20px;
+		margin-top:-20px;
 		text-align:right;
-		width:100%;
-		padding:4px;
+		display:block;
+		
 		font-size:10px;
 		color:#ffffff;
 		background-color:rgba(0,0,0,0.15)
 	}
 	img{
-		width:$music-item-width;
-		height:$music-item-width;		
+		width:$music-item-width*2;
+		height:$music-item-width*2;		
 	}
 	.music-name{
-		font-size:10px;
-		height:24px;
-		line-height:12px;
+		font-size:14px;
+		height:20px;
+		line-height:20px;
 		overflow:hidden;
 		margin:0;
 	}
