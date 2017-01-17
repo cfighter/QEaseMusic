@@ -34,16 +34,11 @@ module.exports = {
         inline: true,
         progress: true,
         proxy: {
-            '/api/*': {
-                target: 'http://music.163.com',
-                changeOrigin: true,
-                secure: false
-            },
             '/eapi/*': {
                 target: 'http://music.163.com',
                 changeOrigin: true,
                 secure: false
-            },
+            }
         }
-    },
+    }
 };

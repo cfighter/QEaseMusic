@@ -1,0 +1,9 @@
+.left-nav{
+	height:100%;
+	position:absolute;
+	transform:translateX(-100%);
+	z-index:99;
+	&.show{
+		transform:translateX(0);
+	}
+}

@@ -1,0 +1,17 @@
+.radio-item{
+	$radio-item-width:50%;	
+	display:inline-block;
+	width:$radio-item-width;
+	padding:8px 8px 0 8px;
+	img{
+		width:$radio-item-width*2;
+		height:$radio-item-width*2;		
+	}
+	.radio-name{
+		font-size:14px;
+		height:20px;
+		line-height:20px;
+		overflow:hidden;
+		margin:0;
+	}
+}
