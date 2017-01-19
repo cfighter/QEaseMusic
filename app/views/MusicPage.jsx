@@ -34,7 +34,8 @@ class MusicPage extends React.Component {
 
         return (
             <div className="music-list-board">  
-             { musicItems}               
+             { musicItems} 
+             <MusicItem/>              
             </div>
         );
 

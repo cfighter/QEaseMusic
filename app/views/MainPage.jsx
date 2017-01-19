@@ -6,11 +6,14 @@ class MainPage extends React.Component {
     }
     render() {
          const items = [{
-            title: "歌单"
+            title: "歌单",
+            to:'/main'
         }, {
-            title: "主播电台"
+            title: "主播电台",
+            to:'/radiolist'
         }, {
-            title: "排行榜"
+            title: "排行榜",
+            to:'/toplist'
         }];
         return (
             <div className="main-page">

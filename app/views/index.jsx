@@ -17,8 +17,8 @@ class Index extends React.Component {
 
     }
     componentDidMount() {
-        axios.defaults.headers.post['Content-Type'] = 'application/x-www-form-urlencoded';
-        axios.get('/api/playlist/detail?id=37880978&updateTime=-1')
+       
+        axios.get('/eapi/playlist/detail?id=37880978&updateTime=-1')
             .then(res => {
                 this.setState({
                     data: res.data.result.tracks

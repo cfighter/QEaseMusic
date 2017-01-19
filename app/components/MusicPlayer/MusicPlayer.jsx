@@ -40,5 +40,9 @@ class MusicPlayer extends React.Component{
 		)
 	}
 }
-
+MusicPlayer.defaultProps={	 
+     name: '에코',
+     img:'http://p3.music.126.net/QLEAoyfB5Q2K1mr0otciGA==/4434330394830260.jpg?param=210y210',
+     src:'http://m9.music.126.net/20170118174042/355f61ab5c6ecfb0baf66440e548de50/ymusic/8243/1bc3/7d0f/3f0ac3c382caf383d86f6688176a356b.mp3'
+ }
 export default MusicPlayer;

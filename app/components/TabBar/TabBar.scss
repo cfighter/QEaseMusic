@@ -7,9 +7,15 @@
 	height:30px;
 	line-height:30px;
 	font-size:15px;
+	a{
+		display:block;
+		width:100%;
+		color:#000000;
+		text-align: center;
+	}
 	.tab-item{
 		display:flex;
-		justify-content: center;
+		//justify-content: center;
 		flex-wrap: nowrap;
 		flex:1;
 

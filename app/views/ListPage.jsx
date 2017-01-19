@@ -4,7 +4,7 @@ class ListPage extends React.Component {
         super(props);
     }
     componentDidMount() {
-    	
+    	console.log('listpage')
     }
     render() {
         return (

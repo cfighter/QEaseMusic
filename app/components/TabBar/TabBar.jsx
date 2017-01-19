@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router';
 import './TabBar.scss'
 
 class TopBar extends React.Component{
@@ -20,7 +21,7 @@ class TopBar extends React.Component{
 		const items=this.props.items.map((item,index)=>{
 			return(
 				<div key={index} className={this.state.index==index?"tab-item active":"tab-item"} onClick={this.tabClick.bind(this,index)}>
-					{item.title} 
+					<Link to={item.to}>{item.title} </Link>
 				</div>
 			)
 		})

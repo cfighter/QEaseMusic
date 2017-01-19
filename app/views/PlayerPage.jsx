@@ -1,15 +1,12 @@
 import React from 'react';
 import MusicPlayer from '../components/MusicPlayer/MusicPlayer.jsx';
 
-class MusicPage extends React.Component {
+class PlayerPage extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
             data: []
         }
-    }
-    componentDidMount() {
-              
     }    
     render() {
         return (
@@ -18,4 +15,4 @@ class MusicPage extends React.Component {
 
     }
 }
-export default MusicPage;
+export default PlayerPage;

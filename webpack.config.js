@@ -4,6 +4,7 @@ module.exports = {
     entry: [
         'webpack/hot/dev-server',
         'webpack-dev-server/client?http://localhost:8080',
+        'whatwg-fetch',
         path.resolve(__dirname, 'app/main.js')
     ],
     output: {
@@ -29,13 +30,15 @@ module.exports = {
         ]
     },
     devServer: {
+        host: '0.0.0.0',
+        port: 8080,
         historyApiFallback: true,
         hot: true,
         inline: true,
         progress: true,
         proxy: {
-            '/eapi/*': {
-                target: 'http://music.163.com',
+            '/eapi': {
+                target: 'http://music.163.com/',
                 changeOrigin: true,
                 secure: false
             }

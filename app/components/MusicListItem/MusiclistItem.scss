@@ -1,0 +1,27 @@
+.music-list-item{
+	padding:0 0 0 15px;
+	height: 45px;
+	line-height: 45px;
+	;
+	font-family: Microsoft Yahei;
+
+}
+.music-list-item a{
+	clear:both;
+	display: block; 	
+}
+
+.music-list-item a .icon{
+	float:left;
+	color:#C62F2F;
+	font-size: 18px;
+	
+}
+.music-list-item a .title{
+	margin-left:25px;
+	padding-left:10px;
+	color:#000000;
+	font-size: 13px;
+	display:block;
+	border-bottom:1px solid #cccccc;
+}
