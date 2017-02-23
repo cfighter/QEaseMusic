@@ -1,17 +1,32 @@
 .radio-item{
-	$radio-item-width:50%;	
+	position:relative;
 	display:inline-block;
-	width:$radio-item-width;
+	width:100%;
 	padding:8px 8px 0 8px;
 	img{
-		width:$radio-item-width*2;
-		height:$radio-item-width*2;		
+		width:100%;
+		height:10rem;		
+	}
+	.play-times{
+		position:relative;
+		top:20px;
+		margin-top:-20px;
+		text-align:right;
+		display:block;		
+		font-size:10px;
+		color:#ffffff;
+		background-color:rgba(0,0,0,0.15)
 	}
 	.radio-name{
+		position: absolute;
+		bottom:0;
+		z-index:100;
 		font-size:14px;
 		height:20px;
 		line-height:20px;
+		padding-left:10px;
 		overflow:hidden;
 		margin:0;
+		color:#ffffff;
 	}
 }

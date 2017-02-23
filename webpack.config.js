@@ -37,7 +37,7 @@ module.exports = {
         inline: true,
         progress: true,
         proxy: {
-            '/eapi': {
+            '/eapi/*': {
                 target: 'http://music.163.com/',
                 changeOrigin: true,
                 secure: false

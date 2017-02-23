@@ -15,14 +15,12 @@ ReactDOM.render(
     <Router history={hashHistory}>
         <Route path="/" component={App}> 
         	<Route path="/main" component={MainPage}>
-                <IndexRoute component={ListPage}/> 
+                <IndexRoute component={MusicPage}/> 
                 <Route path="/toplist" component={TopPage}/>
                 <Route path="/radiolist" component={RadioPage}/>     			
-        	</Route>  
-            
+        	</Route>            
             <Route path="/mylist" component={MusicListPage}/>     	
-        </Route>     
-        <Route path="/play" component={PlayerPage}/>    
-        
+        </Route>         
+        <Route path="/play" component={PlayerPage}/>  
     </Router>
     , document.getElementById('root'));
